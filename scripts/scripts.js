@@ -13,7 +13,7 @@ import {
   loadCSS,
 } from './aem.js';
 
-const LCP_BLOCKS = ["hero"]; // add your LCP blocks to the list
+const LCP_BLOCKS = ['hero']; // add your LCP blocks to the list
 
 /**
  * Builds hero block and prepends to main in a new section.
@@ -26,11 +26,11 @@ function buildHeroBlock(main) {
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)) {
     const section = document.createElement('div');
     const p = h1.nextElementSibling;
-    let elems = [picture, h1];
+    const elems = [picture, h1];
     if (p) {
-        elems.push(p);
+      elems.push(p);
     }
-    section.append(buildBlock('hero', { elems: elems }));
+    section.append(buildBlock('hero', { elems }));
     main.prepend(section);
   }
 }
