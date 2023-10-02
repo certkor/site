@@ -31,3 +31,16 @@
     order: unset;
   }
 }
+
+.columns.services {
+  text-align: center;
+}
+
+.columns.services .icon {
+  height: 60px;
+  width: 60px;
+}
+
+.columns.services .icon img {
+  color: var(--text-color);
+}
