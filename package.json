@@ -1,8 +1,8 @@
 {
-  "name": "@adobe/aem-boilerplate",
+  "name": "certkor",
   "private": true,
   "version": "1.2.2",
-  "description": "Starter project for Adobe Helix",
+  "description": "Certkor Solution",
   "scripts": {
     "lint:js": "eslint .",
     "lint:css": "stylelint blocks/**/*.css styles/*.css",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adobe/aem-boilerplate.git"
+    "url": "git+https://github.com/certkor/site.git"
   },
-  "author": "Adobe",
+  "author": "Certkor",
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/adobe/aem-boilerplate/issues"
+    "url": "https://github.com/certkor/site/issues"
   },
-  "homepage": "https://github.com/adobe/aem-boilerplate#readme",
+  "homepage": "https://github.com/certkor/site#readme",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",

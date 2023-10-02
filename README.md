@@ -1,9 +1,9 @@
-# Your Project's Title...
-Your project's description...
+# Certkor Solution
+Code for Certkor Solution
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--site--certkor.hlx.page/
+- Live: https://main--site--certkor.hlx.live/
 
 ## Installation
 
