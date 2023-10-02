@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
+  --link-color: #fff;
   --link-hover-color: #136ff6;
   --background-color: #353b43;
   --overlay-background-color: #eee;
@@ -137,8 +137,7 @@ a:any-link {
 }
 
 a:hover {
-  text-decoration: underline;
-  color: var(--link-hover-color);
+  color: #57cbcc;
 }
 
 /* buttons */
@@ -163,8 +162,8 @@ a.button:any-link, button {
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
-  background-color: var(--link-hover-color);
   cursor: pointer;
+  color: #57cbcc;
 }
 
 button:disabled, button:disabled:hover {
