@@ -2,8 +2,8 @@
 Code for Certkor Solution
 
 ## Environments
-- Preview: https://main--site--certkor.hlx.page/
-- Live: https://main--site--certkor.hlx.live/
+- Preview: https://main--site--certkor.aem.page/
+- Live: https://main--site--certkor.aem.live/
 
 ## Installation
 
